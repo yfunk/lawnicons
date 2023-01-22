@@ -20,6 +20,12 @@ Lawnicons is an add-on for adding themed icons to [Lawnchair 12 Alpha 5](https:/
 
 ## Download
 
+> **⚠️ Warning**
+>
+> Lawnicons reFilled (currently) has to use the same package name as Lawnicons (`app.lawnchair.lawnicons`) in order for themed "System Icons" to work in Lawnchair Launcher.
+>
+> Unfortunately this means, that Lawnicons and Lawnicons reFilled can't be installed at the same time.
+
 See the [Releases](https://github.com/yfunk/lawnicons-refilled/releases) section to download the latest stable build of Lawnicons reFilled.
 
 For the development versions with new icons, go to the [Actions](https://github.com/yfunk/lawnicons-refilled/actions) tab,
