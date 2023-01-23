@@ -26,9 +26,9 @@
     <!-- Core Contributors label -->
     <string name="core_contributors">Core Contributors</string>
     <!-- Subtitle displayed below core contributors of original project -->
-    <string name="core_contributors_original">Lawnicons project Core Contributor</string>
+    <string name="core_contributors_original">Lawnicons Core Contributor</string>
     <!-- Subtitle displayed below core contributors of fork -->
-    <string name="core_contributors_fork">Lawnicons reFilled project Core Contributor </string>
+    <string name="core_contributors_fork">Lawnicons reFilled Core Contributor </string>
     <!-- Item that links to the Contributors page -->
     <string name="see_all_contributors">See All Contributors</string>
 
