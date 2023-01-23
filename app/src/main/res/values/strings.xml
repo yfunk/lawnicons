@@ -25,6 +25,10 @@
     <string name="contributors">Contributors</string>
     <!-- Core Contributors label -->
     <string name="core_contributors">Core Contributors</string>
+    <!-- Subtitle displayed below core contributors of original project -->
+    <string name="core_contributors_original">Lawnicons project Core Contributor</string>
+    <!-- Subtitle displayed below core contributors of fork -->
+    <string name="core_contributors_fork">Lawnicons reFilled project Core Contributor </string>
     <!-- Item that links to the Contributors page -->
     <string name="see_all_contributors">See All Contributors</string>
 
@@ -32,9 +36,9 @@
     <!-- Special Thanks label -->
     <string name="special_thanks">Special Thanks</string>
     <!-- Subtitle displayed below the user who inspired the app icon -->
-    <string name="special_thanks_icon">For inspiring the app icon.</string>
+    <string name="special_thanks_icon">For inspiring the original app icon.</string>
     <!-- Subtitle displayed below the user who named the app -->
-    <string name="special_thanks_name">For naming the app.</string>
+    <string name="special_thanks_name">For naming the original app.</string>
 
     <!-- Icon Information Popup window -->
 

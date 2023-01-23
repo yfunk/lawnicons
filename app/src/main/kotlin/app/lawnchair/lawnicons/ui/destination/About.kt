@@ -40,6 +40,13 @@ private val coreContributors = listOf(
         username = "paphonb",
         photoUrl = "https://avatars.githubusercontent.com/u/8080853",
         socialUrl = "https://twitter.com/paphonb",
+        descriptionRes = R.string.core_contributors_original,
+    ),
+    Contributor(
+        name = "yfunk",
+        username = "yfunk",
+        photoUrl = "https://avatars.githubusercontent.com/u/14955991",
+        descriptionRes = R.string.core_contributors_fork,
     ),
 )
 

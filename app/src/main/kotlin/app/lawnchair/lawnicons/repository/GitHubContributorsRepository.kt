@@ -5,7 +5,7 @@ import javax.inject.Inject
 
 val coreContributorIds = listOf(
     8080853,
-    56888459,
+    14955991,
 )
 
 class GitHubContributorsRepository @Inject constructor(
