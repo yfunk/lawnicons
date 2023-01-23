@@ -37,7 +37,7 @@ import app.lawnchair.lawnicons.util.appIcon
 private val coreContributors = listOf(
     Contributor(
         name = "paphonb",
-        username = "paphonb",
+        username = "suphon-t",
         photoUrl = "https://avatars.githubusercontent.com/u/8080853",
         socialUrl = "https://twitter.com/paphonb",
         descriptionRes = R.string.core_contributors_original,
@@ -126,6 +126,7 @@ fun About(navController: NavController) {
                             name = it.name,
                             photoUrl = it.photoUrl,
                             profileUrl = "https://github.com/${it.username}",
+                            description = it.descriptionRes?.let { stringResource(id = it) },
                             divider = index != coreContributors.lastIndex,
                         )
                     }
