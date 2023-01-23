@@ -364,6 +364,7 @@
   <item component="ComponentInfo{com.discord/com.discord.screens.ScreenMain}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.disneyplus.mea/com.hotstar.MainActivity}" drawable="disneyplus" name="Disney+" />
   <item component="ComponentInfo{com.disney.disneyplus/com.bamtechmedia.dominguez.main.MainActivity}" drawable="disneyplus" name="Disney+" />
+  <item component="ComponentInfo{com.dkbcodefactory.banking/com.dkbcodefactory.banking.splash.SplashActivity}" drawable="dkb" name="DKB" />
   <item component="ComponentInfo{com.softwarebakery.drivedroid/com.softwarebakery.drivedroid.MainActivity}" drawable="drivedroid" name="DriveDroid" />
   <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LaunchActivity}" drawable="duckduckgo" name="DuckDuckGo" />
   <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherSilhoutte}" drawable="duckduckgo" name="DuckDuckGo" />
