@@ -20,7 +20,7 @@ val ciRunNumber = System.getenv("GITHUB_RUN_NUMBER").orEmpty()
 val isReleaseBuild = ciBuild && ciRef == "main"
 val devReleaseName = if (ciBuild) "(Dev #$ciRunNumber)" else "($buildCommit)"
 
-val version = "1.2.0"
+val version = "1.0.0"
 val versionDisplayName = "$version ${if (isReleaseBuild) "" else devReleaseName}"
 
 android {
@@ -31,7 +31,7 @@ android {
         applicationId = "app.lawnchair.lawnicons"
         minSdk = 26
         targetSdk = 31
-        versionCode = 4
+        versionCode = 1
         versionName = versionDisplayName
         vectorDrawables.useSupportLibrary = true
     }
