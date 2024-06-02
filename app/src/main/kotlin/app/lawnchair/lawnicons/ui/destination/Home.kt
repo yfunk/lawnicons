@@ -18,7 +18,6 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import app.lawnchair.lawnicons.model.IconInfoAppfilter
 import app.lawnchair.lawnicons.model.SearchMode
 import app.lawnchair.lawnicons.ui.components.home.IconPreviewGrid
-import app.lawnchair.lawnicons.ui.components.home.IconRequestFAB
 import app.lawnchair.lawnicons.ui.components.home.search.LawniconsSearchBar
 import app.lawnchair.lawnicons.ui.components.home.search.PlaceholderSearchBar
 import app.lawnchair.lawnicons.ui.components.home.search.SearchContents
@@ -85,9 +84,6 @@ fun Home(
                                 )
                             }
                         }
-                    },
-                    floatingActionButton = {
-                        IconRequestFAB(iconRequestModel)
                     },
                 ) { contentPadding ->
                     iconInfoModel?.let {
