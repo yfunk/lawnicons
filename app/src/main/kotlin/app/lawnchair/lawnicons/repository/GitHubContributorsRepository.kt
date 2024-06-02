@@ -7,6 +7,7 @@ val coreContributorIds = listOf(
     8080853,
     29139614,
     56888459,
+    14955991,
 )
 
 class GitHubContributorsRepository @Inject constructor(

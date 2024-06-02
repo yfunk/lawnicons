@@ -42,22 +42,24 @@ import app.lawnchair.lawnicons.util.appIcon
 private val externalLinks = listOf(
     ExternalLink(
         iconResId = R.drawable.github_foreground,
-        name = R.string.github,
+        name = R.string.github_fork,
         url = "https://github.com/yfunk/lawnicons-refilled",
-    ),
-    ExternalLink(
-        iconResId = R.drawable.icon_request_app,
-        name = R.string.request_form,
-        url = "https://forms.gle/xt7sJhgWEasuo9TR9",
     ),
 )
 
 private val coreContributors = listOf(
     Contributor(
         name = "paphonb",
-        username = "paphonb",
+        username = "suphon-t",
         photoUrl = "https://avatars.githubusercontent.com/u/8080853",
         socialUrl = "https://x.com/paphonb",
+        descriptionRes = R.string.core_contributors_original,
+    ),
+    Contributor(
+        name = "yfunk",
+        username = "yfunk",
+        photoUrl = "https://avatars.githubusercontent.com/u/14955991",
+        descriptionRes = R.string.core_contributors_fork,
     ),
 )
 
@@ -156,6 +158,7 @@ fun About(
                             name = it.name,
                             photoUrl = it.photoUrl,
                             profileUrl = it.socialUrl,
+                            description = it.descriptionRes?.let { stringResource(id = it) },
                             divider = index != coreContributors.lastIndex,
                         )
                     }
