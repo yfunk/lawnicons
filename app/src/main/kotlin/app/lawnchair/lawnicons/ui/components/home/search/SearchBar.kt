@@ -263,7 +263,7 @@ internal fun SearchActionButton(
                 onClick = { onNavigate(Destinations.ABOUT) },
             ) {
                 Icon(
-                    imageVector = ImageVector.vectorResource(id = R.drawable.lawnicons_foreground),
+                    imageVector = ImageVector.vectorResource(id = R.drawable.lawnicons_refilled_foreground),
                     contentDescription = null,
                     tint = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier
