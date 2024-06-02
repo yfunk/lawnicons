@@ -100,7 +100,7 @@ fun IconInfoPopup(
                 IconLink(
                     iconResId = R.drawable.github_foreground,
                     label = stringResource(id = R.string.view_on_github),
-                    url = "https://github.com/LawnchairLauncher/lawnicons/blob/develop/svgs/$githubName.svg",
+                    url = "https://github.com/yfunk/lawnicons-refilled/blob/develop/svgs/$githubName.svg",
                 )
             }
 

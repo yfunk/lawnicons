@@ -75,7 +75,7 @@ android {
     productFlavors {
         create("app") {
             dimension = "product"
-            resValue("string", "apps_name", "Lawnicons")
+            resValue("string", "apps_name", "Lawnicons reFilled")
         }
     }
     sourceSets.getByName("app") {
@@ -102,7 +102,7 @@ android {
     applicationVariants.all {
         outputs.all {
             (this as? ApkVariantOutputImpl)?.outputFileName =
-                "Lawnicons $versionName v${versionCode}_${buildType.name}.apk"
+                "Lawnicons reFilled $versionName v${versionCode}_${buildType.name}.apk"
         }
     }
 }

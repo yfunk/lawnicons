@@ -9,7 +9,7 @@ App Name (`com.package.app`)
 App Name (`com.package.app`)
 
 ### Linked
-<!--  New links for apps that were already in Lawnicons. -->
+<!--  New links for apps that were already in Lawnicons reFilled. -->
 App Name (`com.package.app` → `drawable.svg`)
 App Name (`com.package.app` → `drawable.svg`)
 
@@ -19,5 +19,5 @@ App Name (`com.package.app`)
 App Name (`com.package.app`)
 
 ## Contributor's checklist
-- [ ] I followed [the Lawnicons guidelines](https://github.com/LawnchairLauncher/lawnicons/blob/develop/CONTRIBUTING.md) and will make changes if someone suggests. I will also make sure that Lawnicons builds correctly.
+- [ ] I followed [the Lawnicons reFilled guidelines](https://github.com/yfunk/lawnicons-refilled/blob/develop/CONTRIBUTING.md) and will make changes if someone suggests. I will also make sure that Lawnicons reFilled builds correctly.
 <!-- If you think that everything is correct, then replace [ ] with [x] or click on the checkbox after creating the pull request. -->

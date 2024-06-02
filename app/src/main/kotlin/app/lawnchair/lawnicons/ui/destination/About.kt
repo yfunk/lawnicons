@@ -43,7 +43,7 @@ private val externalLinks = listOf(
     ExternalLink(
         iconResId = R.drawable.github_foreground,
         name = R.string.github,
-        url = "https://github.com/LawnchairLauncher/lawnicons",
+        url = "https://github.com/yfunk/lawnicons-refilled",
     ),
     ExternalLink(
         iconResId = R.drawable.icon_request_app,

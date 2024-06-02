@@ -33,7 +33,7 @@ import app.lawnchair.lawnicons.viewmodel.ContributorsViewModel
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
 
-const val CONTRIBUTOR_URL = "https://github.com/LawnchairLauncher/lawnicons/graphs/contributors"
+const val CONTRIBUTOR_URL = "https://github.com/yfunk/lawnicons-refilled/graphs/contributors"
 
 @Composable
 fun Contributors(
