@@ -26,7 +26,7 @@ val ciRunNumber = providers.environmentVariable("GITHUB_RUN_NUMBER").orNull.orEm
 val isReleaseBuild = ciBuild && ciRef.contains("main")
 val devReleaseName = if (ciBuild) "(Dev #$ciRunNumber)" else "($buildCommit)"
 
-val version = "2.9.0"
+val version = "2.0.0"
 val versionDisplayName = "$version ${if (isReleaseBuild) "" else devReleaseName}"
 
 android {
@@ -37,7 +37,7 @@ android {
         applicationId = "dev.yfunk.lawnicons.refilled"
         minSdk = 26
         targetSdk = 34
-        versionCode = 12
+        versionCode = 1
         versionName = versionDisplayName
         vectorDrawables.useSupportLibrary = true
     }
